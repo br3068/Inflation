@@ -1,0 +1,12 @@
+event,start,end,group,color
+Inflation Crisis,1950-01-01,1952-01-01,Australia,#c8e6c9
+Post-war boom,1950-01-01,1968-01-01,International,#FF0000
+Great Inflation,1970-01-01,1980-01-01,International,#FF0000
+1972 recession,1972-01-01,1974-01-01,Australia,#c8e6c9
+1982 Recession,1980-01-01,1984-01-01,Australia,#c8e6c9
+Volcker disinflation ,1981-01-01,1983-01-01,International,#FF0000
+Great moderation ,1985-01-01,2007-01-01,International,#FF0000
+1991 Recession,1991-01-01,1992-01-01,Australia,#c8e6c9
+Inflation targeting,1993-01-01,2022-01-01,Australia,#c8e6c9
+GFC,2007-01-01,2008-01-01,International,#FF0000
+COVID-19,2019-01-01,2022-01-01,International,#FF0000

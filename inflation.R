@@ -233,6 +233,21 @@ fig_2_1 <- gg_vistime(time_line,
         show_labels = TRUE, 
         background_lines = NULL)  
 fig_2_1
-fig_2_1p <- plotly(fig_2_1)
 
-saveWidget(fig_2_1,"fig_2_1.html")
+fig_2_1p <- vistime(time_line, 
+                      col.event = "event", 
+                      col.start = "start",
+                      col.end = "end", 
+                      col.group = "group", 
+                      col.color = "color", 
+                      col.fontcolor = "fontcolor",
+                      col.tooltip = "tooltip", 
+                      optimize_y = TRUE, 
+                      linewidth = NULL, 
+                      title = "Figure 2.1: Australia and International Post-War Economic Timeline", 
+                      show_labels = TRUE, 
+                      background_lines = NULL)  
+fig_2_1p
+
+
+saveWidget(fig_2_1p,"fig_2_1.html")
